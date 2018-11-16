@@ -2,4 +2,4 @@
 
 Bluemix Mobile Starter for Weather in Java
 
-For instructions refer <a href="https://github.com/ibm-bluemix-mobile-services/starter-weather/blob/master/android/README.md"> here </a>
+For instructions refer <a href="https://github.com/ibm-bluemix-mobile-services/starter-weather/blob/master/android/README.md">here</a>.
