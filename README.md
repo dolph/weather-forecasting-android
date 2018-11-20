@@ -3,13 +3,13 @@
 
 # Create an Android weather application in Java
 
-The Bluemix Mobile Starter for Weather showcases getting a forecast using the coordinates from Google Maps and gives you integration points for each of the Bluemix Mobile services.
+The IBM Cloud Mobile Starter for Weather showcases getting a forecast using the coordinates from Google Maps and gives you integration points for each of the Bluemix Mobile services.
 
 ## Requirements
 
-* A [Bluemix](http://bluemix.net) Account
+* An [IBM Cloud](http://bluemix.net) Account
 * [Android Studio](https://developer.android.com/studio/index.html) and [Gradle](https://gradle.org/gradle-download/)
-* [Weather](https://new-console.ng.bluemix.net/catalog/weather-company-data) service instance obtained from the [Bluemix Catalog](https://new-console.ng.bluemix.net/catalog/)
+* [Weather](https://console.ng.bluemix.net/catalog/weather-company-data) service instance obtained from the [IBM Cloud Catalog](https://console.ng.bluemix.net/catalog/)
 
 ## Configuration
 
@@ -55,7 +55,7 @@ Click **Run** to start the app in Android Studio.
 
 ![Weather App Screenshot](README_Images/weather.png)
 
-The application allows you determine the forecast of any location using your Weather instance on Bluemix. Long click to view the forecast.
+The application allows you determine the forecast of any location using your Weather instance on IBM Cloud. Long click to view the forecast.
 
 ## License
 
