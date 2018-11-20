@@ -3,8 +3,6 @@
 
 # Create an Android weather application in Java
 
-## Summary
-
 The Bluemix Mobile Starter for Weather showcases getting a forecast using the coordinates from Google Maps and gives you integration points for each of the Bluemix Mobile services.
 
 ## Requirements
