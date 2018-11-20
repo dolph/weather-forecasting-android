@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/bluemix-powered-blue.svg)](https://bluemix.net)
+[![](https://img.shields.io/badge/ibmcloud-powered-blue.svg)](https://bluemix.net)
 [![](https://img.shields.io/badge/platform-android-lightgrey.svg?style=flat)](https://developer.android.com/index.html)
 
 # Create an Android weather application in Java
