@@ -3,6 +3,8 @@
 
 # Create an Android weather application in Java
 
+> We have a similar pattern available for [iOS](https://github.com/IBM/weather-forecasting-ios), as well!
+
 The IBM Cloud Mobile Starter for Weather showcases getting a forecast using the coordinates from Google Maps and gives you integration points for each of the IBM Cloud Mobile services.
 
 ![](README_Images/architecture.png)
