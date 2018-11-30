@@ -15,13 +15,22 @@ When you have completed this code pattern, you will understand how to:
 
 ![](README_Images/architecture.png)
 
-## Requirements
+## Steps
 
-* An [IBM Cloud](http://bluemix.net) Account
+[![](https://bluemix.net/deploy/button.png)](https://console.bluemix.net/developer/mobile/create-app?defaultDeploymentToolchain=&defaultLanguage=IOS_SWIFT&env_id=ibm%3Ayp%3Aus-south&starterKit=fad1d49e-f7b6-3aff-9b53-14673fca4399&tenantNavMode=true)
+
+Deploy the application automatically using the button above and jump to step 3 below.
+
+**OR**
+
+Deploy the application manually:
+
+### 1. Requirements
+
 * [Android Studio](https://developer.android.com/studio/index.html) and [Gradle](https://gradle.org/gradle-download/)
 * [Weather](https://console.ng.bluemix.net/catalog/weather-company-data) service instance obtained from the [IBM Cloud Catalog](https://console.ng.bluemix.net/catalog/)
 
-## Configuration
+### 2. Configuration
 
 * Open the project in Android Studio and perform a Gradle Sync.
 * Navigate to `res/values/google_maps_api.xml`, generate an API key, and input your credential information:
@@ -59,7 +68,7 @@ Replace the service credentials from your Weather instance:
 
 > **Note:** If one of your credentials has a special character (for example: `&`) you might need to escape it, as follows:  `&amp;`
 
-## Run
+### 3. Run
 
 Click **Run** to start the app in Android Studio.
 
