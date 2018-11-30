@@ -25,6 +25,10 @@ Deploy the application automatically using the button above and jump to step 3 b
 
 Deploy the application manually:
 
+1. [Requirements](#1-requirements)
+1. [Configuration](#2-configuration)
+1. [Run](#3-run)
+
 ### 1. Requirements
 
 * [Android Studio](https://developer.android.com/studio/index.html) and [Gradle](https://gradle.org/gradle-download/)
