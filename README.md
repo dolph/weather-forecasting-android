@@ -62,7 +62,7 @@ Replace the service credentials from your Weather instance:
 
 > **Note:** If one of your credentials has a special character (for example: `&`) you might need to escape it, as follows:  `&amp;`
 
-### 3. Run
+### 4. Run
 
 Click **Run** to start the app in Android Studio.
 
