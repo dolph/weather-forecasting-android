@@ -17,48 +17,38 @@ When you have completed this code pattern, you will understand how to:
 
 ## Steps
 
-[![](https://bluemix.net/deploy/button.png)](https://console.bluemix.net/developer/mobile/create-app?defaultDeploymentToolchain=&defaultLanguage=ANDROID&env_id=ibm%3Ayp%3Aus-south&starterKit=fad1d49e-f7b6-3aff-9b53-14673fca4399&tenantNavMode=true)
+> As an alternative to steps 1 & 2 below, you can [create this project as a starter kit on IBM Cloud](https://console.bluemix.net/developer/mobile/create-app?defaultDeploymentToolchain=&defaultLanguage=ANDROID&env_id=ibm%3Ayp%3Aus-south&starterKit=fad1d49e-f7b6-3aff-9b53-14673fca4399&tenantNavMode=true), which automatically provisions required services, and injects service credentials into a custom fork of this pattern. Then, you can skip directly to step 4 below.
 
-Deploy the application automatically using the button above and skip to step 3 below.
+1. [Install development tools](#1-install-development-tools)
+1. [Authenticate with Google Maps](#2-authenticate-with-google-maps)
+1. [Create a Weather service instance](#3-create-a-weather-service-instance)
+1. [Run](#4-run)
 
-**OR**
+### 1. Install development tools
 
-Deploy the application manually:
+Ensure you have the latest versions of [Android Studio](https://developer.android.com/studio/index.html) and [Gradle](https://gradle.org/gradle-download/) installed.
 
-1. [Requirements](#1-requirements)
-1. [Configuration](#2-configuration)
-1. [Run](#3-run)
+### 2. Authenticate with Google Maps
 
-### 1. Requirements
+Open the project in Android Studio and perform a Gradle Sync.
 
-* [Android Studio](https://developer.android.com/studio/index.html) and [Gradle](https://gradle.org/gradle-download/)
-* [Weather](https://console.ng.bluemix.net/catalog/weather-company-data) service instance obtained from the [IBM Cloud Catalog](https://console.ng.bluemix.net/catalog/)
+[Obtain a Google Maps API Key from Google](https://developers.google.com/maps/documentation/android-sdk/signup).
 
-### 2. Configuration
+Navigate to `res/values/google_maps_api.xml`, and input your API Key:
 
-* Open the project in Android Studio and perform a Gradle Sync.
-* Navigate to `res/values/google_maps_api.xml`, generate an API key, and input your credential information:
-
-```HTML
+```xml
 <resources>
-    <!--
-    TODO: Before you release your application, you need a Google Maps API key.
-    To do this, you can either add your release key credentials to your existing
-    key, or create a new key.
-    Note that this file specifies the API key for the release build target.
-    If you have previously set up a key for the debug target with the debug signing certificate,
-    you will also need to set up a key for your release certificate.
-    Follow the directions here:
-    https://developers.google.com/maps/documentation/android/signup
-    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
-    string in this file.
-    -->
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">YOUR_KEY_HERE</string>
 </resources>
 ```
-* Navigate to `res/values/weather_credentials.xml` and input your credential information:
 
-```HTML
+### 3. Create a Weather service instance
+
+Use the [IBM Cloud Catalog](https://console.ng.bluemix.net/catalog/) and create a [Weather Company Data](https://console.ng.bluemix.net/catalog/services/weather-company-data/) service instance.
+
+Navigate to `res/values/weather_credentials.xml` and input your credential information:
+
+```xml
 <resources>
     <string name="weather_username">YOUR_USERNAME_HERE</string>
     <string name="weather_password">YOUR_PASSWORD_HERE</string>
